@@ -7,11 +7,11 @@
 
 import UIKit
 
-class TextInputViewController: UIViewController {
+public class TextInputViewController: UIViewController {
     
     public static let storyboardVC = UIStoryboard(name: "LoginVC", bundle: Bundle.module).instantiateInitialViewController()!
 
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
